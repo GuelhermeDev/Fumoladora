@@ -7,6 +7,7 @@
         height: 100vh;
         display: flex;
         flex-direction: colum;
+        overflow-y: auto;
     }
     .navbar {
         background-color: #388e3c;
@@ -34,10 +35,14 @@
         border-radius: 20px;
     }
     .footer {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
         background-color: #388e3c;
         color: white;
         text-align: center;
-        padding: 20px 0;
+        padding: 10px 0;
         margin-top: auto;
         width: 100%;
     }
