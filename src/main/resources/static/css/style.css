@@ -1,0 +1,54 @@
+<style>
+    body {
+        background-color: #e8f5e9;
+        color: #333;
+        margin: 0;
+        padding: 0;
+        height: 100vh;
+        display: flex;
+        flex-direction: colum;
+    }
+    .navbar {
+        background-color: #388e3c;
+        height: 80px;
+        display: flex;
+        alig-items: center;
+    }
+    .navbar-nav .nav-link{
+        padding: 15px;
+    }
+    .btn-custom {
+        background-color: #4caf50;
+        color: white;
+    }
+    .card {
+        background-color: #c8e6c9;
+        border: none;
+        border-radius: 15px;
+    }
+    .container{
+        margin-top: 50px;
+        flex: 1;
+    }
+    .form-control{
+        border-radius: 20px;
+    }
+    .footer {
+        background-color: #388e3c;
+        color: white;
+        text-align: center;
+        padding: 20px 0;
+        margin-top: auto;
+        width: 100%;
+    }
+    .main-container {
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    .custom-icon{
+        front-size: 30px;
+    }
+</style>
